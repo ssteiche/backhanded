@@ -1,8 +1,8 @@
 # backhanded
 
-This program may reserve and complement your input DNA sequence. Depending on your luck, the program may return a backhanded compliment instead. Don't feel discouraged though. If you keep trying, you will get what you seek.
+This program may reverse and complement your input DNA sequence. Depending on your luck, the program may return a backhanded compliment instead. Don't feel discouraged though. If you keep trying, you will get what you seek.
 
-If you become too frustrated, simply use the seed flag, -s, with a value of 1 to ensure faithful conversion of your input sequence. The program should allow for upper or lower case DNA base symbols; 'A, T, G, or C'. However, any other character in the input string should case the program to exit with an error code and message.
+If you become too frustrated, simply use the seed flag, -s, with a value of 1 to ensure faithful conversion of your input sequence. The program should allow for upper or lower case DNA base symbols; 'A, T, G, or C'. However, any other character in the input string should cause the program to exit with an error code and message.
 
 # Expected behavior
 
