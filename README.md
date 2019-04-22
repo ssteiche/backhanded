@@ -1,6 +1,6 @@
 # backhanded
 
-This program may reverse and complement your input DNA sequence. Depending on your luck, the program may return a backhanded compliment instead. Don't feel discouraged though. If you keep trying, you will get what you seek.
+The program, `backhand.py`, may reverse and complement your input DNA sequence. Depending on your luck, the program may return a backhanded compliment instead. Don't feel discouraged though. If you keep trying, you will get what you seek.
 
 If you become too frustrated, simply use the seed flag, -s, with a value of 1 to ensure faithful conversion of your input sequence. The program should allow for upper or lower case DNA base symbols; 'A, T, G, or C'. However, any other character in the input string should cause the program to exit with an error code and message.
 
@@ -47,3 +47,8 @@ test.py::test_good_input PASSED                                                 
 
 ======================================= 3 passed in 0.50 seconds =======================================
 ````
+
+# Contact information
+
+Seth Steichen
+ssteiche@gmail.com
