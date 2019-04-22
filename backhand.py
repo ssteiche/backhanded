@@ -8,6 +8,7 @@ Purpose: Possibly generate the reverse complement of a DNA sequence
 import argparse
 import sys
 import random
+import re
 
 # --------------------------------------------------
 def get_args():
@@ -64,6 +65,11 @@ def main():
     args = get_args()
     seq = args.sequence
     seed = args.seed
+
+    seq = seq.upper()
+
+    if re.search('[^ATGC]', seq):
+        die('Sequence must contain only A, T, G, or C characters')
 
     if not seed == None:
         random.seed(seed)
